@@ -259,10 +259,6 @@ h2{
   /* filter: var(--pink); */
 }
 
-.link-srr{
-  text-decoration: none;
-}
-
 @media only screen and (max-width: 376px){
   .header{
     background-image: url(bg-hero-mobile.svg);
