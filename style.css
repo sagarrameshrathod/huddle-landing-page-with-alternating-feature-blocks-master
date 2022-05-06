@@ -254,9 +254,23 @@ h2{
   cursor: pointer;
 }
 
-.footer-b-44:active :hover{
+.link-2:hover, .link-3:hover{
+  background-color: hsl(322, 93%, 76%);
+}
+
+.link-1:hover{
+  background-color: rgb(255, 251, 251);
+}
+
+.footer-b-11:hover, .footer-b-22:hover, .footer-b-33:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer-b-44:hover{
   filter: invert(100%);
   /* filter: var(--pink); */
+  border-color: var(--pink);
 }
 
 .link-srr{
